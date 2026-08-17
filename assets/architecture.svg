@@ -24,117 +24,102 @@
 <g>
   <path d="M440 103V121" stroke="#343963" stroke-width="1.5"/>
   <path d="M436 115L440 121L444 115" fill="none" stroke="#343963" stroke-width="1.5" stroke-linecap="round"/>
-  <circle r="2.6" fill="#22d3ee">
+  <circle cx="440" cy="103" r="2.6" fill="#22d3ee" opacity="0">
     <animate attributeName="cy" from="103" to="121" dur="2.4s" begin="0s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="440;440" dur="2.4s" begin="0s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="0s" repeatCount="indefinite"/>
   </circle>
 </g>
 <g>
   <path d="M440 181V199" stroke="#343963" stroke-width="1.5"/>
   <path d="M436 193L440 199L444 193" fill="none" stroke="#343963" stroke-width="1.5" stroke-linecap="round"/>
-  <circle r="2.6" fill="#22d3ee">
+  <circle cx="440" cy="181" r="2.6" fill="#22d3ee" opacity="0">
     <animate attributeName="cy" from="181" to="199" dur="2.4s" begin="0.28s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="440;440" dur="2.4s" begin="0.28s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="0.28s" repeatCount="indefinite"/>
   </circle>
 </g>
 <g>
   <path d="M440 259V277" stroke="#343963" stroke-width="1.5"/>
   <path d="M436 271L440 277L444 271" fill="none" stroke="#343963" stroke-width="1.5" stroke-linecap="round"/>
-  <circle r="2.6" fill="#22d3ee">
+  <circle cx="440" cy="259" r="2.6" fill="#22d3ee" opacity="0">
     <animate attributeName="cy" from="259" to="277" dur="2.4s" begin="0.56s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="440;440" dur="2.4s" begin="0.56s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="0.56s" repeatCount="indefinite"/>
   </circle>
 </g>
 <g>
   <path d="M440 337V355" stroke="#343963" stroke-width="1.5"/>
   <path d="M436 349L440 355L444 349" fill="none" stroke="#343963" stroke-width="1.5" stroke-linecap="round"/>
-  <circle r="2.6" fill="#b18cff">
+  <circle cx="440" cy="337" r="2.6" fill="#b18cff" opacity="0">
     <animate attributeName="cy" from="337" to="355" dur="2.4s" begin="0.84s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="440;440" dur="2.4s" begin="0.84s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="0.84s" repeatCount="indefinite"/>
   </circle>
 </g>
 <g>
   <path d="M440 415V433" stroke="#343963" stroke-width="1.5"/>
   <path d="M436 427L440 433L444 427" fill="none" stroke="#343963" stroke-width="1.5" stroke-linecap="round"/>
-  <circle r="2.6" fill="#b18cff">
+  <circle cx="440" cy="415" r="2.6" fill="#b18cff" opacity="0">
     <animate attributeName="cy" from="415" to="433" dur="2.4s" begin="1.12s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="440;440" dur="2.4s" begin="1.12s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="1.12s" repeatCount="indefinite"/>
   </circle>
 </g>
 <g>
   <path d="M440 493V511" stroke="#343963" stroke-width="1.5"/>
   <path d="M436 505L440 511L444 505" fill="none" stroke="#343963" stroke-width="1.5" stroke-linecap="round"/>
-  <circle r="2.6" fill="#b18cff">
+  <circle cx="440" cy="493" r="2.6" fill="#b18cff" opacity="0">
     <animate attributeName="cy" from="493" to="511" dur="2.4s" begin="1.4s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="440;440" dur="2.4s" begin="1.4s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="1.4s" repeatCount="indefinite"/>
   </circle>
 </g>
 <g>
   <path d="M440 571V589" stroke="#343963" stroke-width="1.5"/>
   <path d="M436 583L440 589L444 583" fill="none" stroke="#343963" stroke-width="1.5" stroke-linecap="round"/>
-  <circle r="2.6" fill="#f272c8">
+  <circle cx="440" cy="571" r="2.6" fill="#f272c8" opacity="0">
     <animate attributeName="cy" from="571" to="589" dur="2.4s" begin="1.68s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="440;440" dur="2.4s" begin="1.68s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="1.68s" repeatCount="indefinite"/>
   </circle>
 </g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze"/>
+<g>
   <rect x="60" y="46" width="760" height="54" rx="10" fill="#171a33" fill-opacity="0.55" stroke="#343963"/>
   <rect x="60" y="56" width="3" height="34" rx="1.5" fill="#22d3ee"/>
   <text x="82" y="70" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.06em" fill="#f4f4fb">DEVELOPMENT TASK</text>
   <text x="82" y="90" font-family="'Space Grotesk',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12.5" fill="#8683a8">Bugfix, feature, refactor, security review, release</text>
 </g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.1s" fill="freeze"/>
+<g>
   <rect x="60" y="124" width="760" height="54" rx="10" fill="#171a33" fill-opacity="0.55" stroke="#343963"/>
   <rect x="60" y="134" width="3" height="34" rx="1.5" fill="#b18cff"/>
   <text x="82" y="148" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.06em" fill="#f4f4fb">CONTROL PLANE</text>
   <text x="82" y="168" font-family="'Space Grotesk',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12.5" fill="#8683a8">Classifies the task, assigns owner and reviewer, applies policy</text>
 </g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/>
+<g>
   <rect x="60" y="202" width="760" height="54" rx="10" fill="#171a33" fill-opacity="0.55" stroke="#343963"/>
   <rect x="60" y="212" width="3" height="34" rx="1.5" fill="#b18cff"/>
   <text x="82" y="226" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.06em" fill="#f4f4fb">AGENTS &amp; SUBAGENTS</text>
   <text x="82" y="246" font-family="'Space Grotesk',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12.5" fill="#8683a8">Specialists for backend, frontend, database, security, delivery</text>
 </g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.3s" fill="freeze"/>
+<g>
   <rect x="60" y="280" width="760" height="54" rx="10" fill="#171a33" fill-opacity="0.55" stroke="#343963"/>
   <rect x="60" y="290" width="3" height="34" rx="1.5" fill="#915eff"/>
   <text x="82" y="304" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.06em" fill="#f4f4fb">SKILLS · RULES · HOOKS</text>
   <text x="82" y="324" font-family="'Space Grotesk',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12.5" fill="#8683a8">Repeatable workflows and constraints, enforced rather than suggested</text>
 </g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.4s" fill="freeze"/>
+<g>
   <rect x="60" y="358" width="760" height="54" rx="10" fill="#171a33" fill-opacity="0.55" stroke="#343963"/>
   <rect x="60" y="368" width="3" height="34" rx="1.5" fill="#915eff"/>
   <text x="82" y="382" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.06em" fill="#f4f4fb">MODEL ROUTING</text>
   <text x="82" y="402" font-family="'Space Grotesk',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12.5" fill="#8683a8">Sends the work to the model and tool suited to that task</text>
 </g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze"/>
+<g>
   <rect x="60" y="436" width="760" height="54" rx="10" fill="#171a33" fill-opacity="0.55" stroke="#343963"/>
   <rect x="60" y="446" width="3" height="34" rx="1.5" fill="#f272c8"/>
   <text x="82" y="460" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.06em" fill="#f4f4fb">CLAUDE CODE · CURSOR · CODEX · ANTIGRAVITY</text>
   <text x="82" y="480" font-family="'Space Grotesk',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12.5" fill="#8683a8">One governance surface, four native runtimes</text>
 </g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze"/>
+<g>
   <rect x="60" y="514" width="760" height="54" rx="10" fill="#171a33" fill-opacity="0.55" stroke="#343963"/>
   <rect x="60" y="524" width="3" height="34" rx="1.5" fill="#ff8a3d"/>
   <text x="82" y="538" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.06em" fill="#f4f4fb">DETERMINISTIC GATES</text>
   <text x="82" y="558" font-family="'Space Grotesk',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12.5" fill="#8683a8">Integrity, agent and skill contracts, security coverage, finish gate</text>
 </g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.7s" fill="freeze"/>
+<g>
   <rect x="60" y="592" width="760" height="54" rx="10" fill="#171a33" fill-opacity="0.55" stroke="#343963"/>
   <rect x="60" y="602" width="3" height="34" rx="1.5" fill="#ff8a3d"/>
   <text x="82" y="616" font-family="'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.06em" fill="#f4f4fb">KNOWLEDGE BASE</text>
