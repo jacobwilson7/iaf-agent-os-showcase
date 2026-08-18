@@ -4,9 +4,8 @@
 > AI-assisted development is governable: every task gets an owner, a reviewer, a policy and a set
 > of gates it has to pass before it can claim to be finished.
 
-**Role** — designed and built independently. Personal, experimental project.
-**Shape** — agents and subagents, skills, rules, hooks, multi-model routing, preflight checks,
-security policy and a centralised knowledge base.
+**Role**
+Designed and built independently · Personal, experimental project
 
 ![The Agent OS knowledge base explored as a graph: policies, agent matrix and the branches of each supported project](assets/screenshots/llm-wiki-graph.webp)
 
@@ -34,6 +33,26 @@ things went well.
 ## How a task moves through it
 
 ![The control plane, top to bottom: development task, control plane, agents and subagents, skills / rules / hooks, model routing, the four IDE runtimes, deterministic gates, knowledge base](assets/architecture.svg)
+
+## Stack
+
+**Agent Runtime**
+Claude Code · Cursor · Codex · Antigravity
+
+**Orchestration**
+Agents · Subagents · Skills · Rules · Hooks · Commands
+
+**Model Routing**
+Multi-model routing
+
+**Security & Verification**
+Preflight · Security policies · Deterministic gates · Integrity checks · Finish gate
+
+**Knowledge**
+Centralized knowledge base · LLM Wiki · Graph
+
+**Cross-IDE**
+Markdown · TOML · Native adapters
 
 ## Key capabilities
 
