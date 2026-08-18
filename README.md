@@ -19,8 +19,8 @@ configuration format, its own idea of what an "agent" is, and no memory of the r
 one agreed to. Give the same repository to four of them and you get four different conventions,
 four different definitions of done, and no way to tell afterwards which decision was deliberate.
 
-The failure mode is not bad code. It is **unverifiable** code: changes that look finished, claim
-tests passed, and cannot be traced back to a decision.
+The failure mode is unverifiable work: changes that look finished, claim tests passed, and
+cannot be traced back to a decision.
 
 ## What I built
 
@@ -57,10 +57,8 @@ things went well.
 
 ## Engineering decisions
 
-**Governance has to execute, or it is decoration.** The core decision was that important rules
-must not live only in documentation. Anything that matters is expressed as a skill, an agent
-contract or a shell check that can fail. A policy that cannot return a non-zero exit code does not
-change behaviour.
+**Rules that matter have to be able to fail.** Anything important is a skill, an agent contract or
+a shell check. A policy that cannot return a non-zero exit code does not change behaviour.
 
 **Three levels of severity, not two.** Checks return CRITICAL, WARN or OPTIONAL. Two levels
 force every rule to be either blocking or ignorable, and in practice that means everything
@@ -97,9 +95,8 @@ correct.
 
 ## Why it exists
 
-Every project in this profile is built with AI assistance. This is the layer that makes that
-statement mean something specific: which agent owned which phase, which policy applied, which
-gates passed, and what the report said. Without it, "built with AI assistance" is unfalsifiable.
+Every project in this profile is built with AI assistance. This layer records which agent owned
+which phase, which policy applied, which gates passed, and what the report said.
 
 ## Source code
 
