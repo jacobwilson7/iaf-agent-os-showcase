@@ -122,9 +122,3 @@ which phase, which policy applied, which gates passed, and what the report said.
 The source code is maintained in a private repository. The system encodes operational policies,
 security rules and project-specific knowledge that are not intended for publication. This
 repository documents the architecture and the design decisions.
-
-## Links
-
-- **Interactive case study** — [francescoiaforte.vercel.app/en/projects/iaf-agent-os](https://francescoiaforte.vercel.app/en/projects/iaf-agent-os)
-- **Profile** — [github.com/francescoveryra-dot](https://github.com/francescoveryra-dot)
-- **Full portfolio** — [francescoiaforte.vercel.app](https://francescoiaforte.vercel.app)
